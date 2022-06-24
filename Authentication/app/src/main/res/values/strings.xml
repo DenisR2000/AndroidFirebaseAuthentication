@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mystat</string>
+    <string name="logo_about">Logo</string>
+    <string name="btn_login">Login</string>
+    <string name="input_login">Logo</string>
+    <string name="input_password">Password</string>
+    <string name="input_confirm_password">Confirm password</string>
+
+    <string name="already_reg">Registered ?</string>
+    <string name="not_reg">Not registered ?</string>
+    <string name="entry_here">login</string>
+    <string name="reg_here">Registration</string>
+    <string name="login_title">Authentication</string>
+
+    <string name="login_btn_text">Cam in</string>
+    <string name="success_login">Profile page</string>
+    <string name="success_register">Successfully login</string>
+    <string name="exit_text">Log out</string>
+    <string name="profile">Profile</string>
+    <string name="favorites">favorites</string>
+    <string name="history">history</string>
+    <string name="settings">settings</string>
+    <string name="security">security</string>
+    <string name="other">other</string>
+    <string name="denis_rachkovsky">Denis Rachkovsky</string>
+    <string name="verified">verified</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification">Notification</string>
+    <string name="loading">Loading...</string>
+</resources>

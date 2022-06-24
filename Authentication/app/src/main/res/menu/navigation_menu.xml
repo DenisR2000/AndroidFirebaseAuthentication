@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/edit"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/favorites"
+        android:title="@string/favorites"/>
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/history"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"/>
+    <item
+        android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/menuSecurity"
+                android:icon="@drawable/security"
+                android:title="@string/security"
+                />
+        </menu>
+    </item>
+</menu>

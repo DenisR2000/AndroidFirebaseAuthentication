@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/profileFragment">
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.authentication.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.authentication.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.authentication.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.authentication.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings2" />
+    <fragment
+        android:id="@+id/menuSecurity"
+        android:name="com.example.authentication.SecurityFragment"
+        android:label="@string/security"
+        tools:layout="@layout/fragment_security" />
+</navigation>
